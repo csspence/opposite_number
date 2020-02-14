@@ -8,6 +8,6 @@ Examples:
 -34: 34
 */
 
-function opposite(number) {
-  //your code here
+const opposite = (number) => {
+  return (number > 0 ? number * -1 : Math.abs(number));
 }
